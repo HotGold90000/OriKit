@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FloatView">
+        <attr name="floatText" format="string"/>
+        <attr name="floatTextVisible" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="AutoScrollTextView">
+        <attr name="line_one_text" format="string"/>
+        <attr name="line_two_text" format="string"/>
+        <attr name="line_third_text" format="string"/>
+        <attr name="scroll_interval" format="integer"/>
+        <attr name="text_color" format="color"/>
+        <attr name="text_size" format="dimension"/>
+    </declare-styleable>
+</resources>

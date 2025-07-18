@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">OriKit</string>
+    <string name="textView">Hello, World</string>
+</resources>

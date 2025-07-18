@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="purple_50">#F3E5F5</color>
+    <color name="purple_100">#E1BEE7</color>
+    <color name="purple_500">#9C27B0</color>
+    <color name="purple_700">#7B1FA2</color>
+    <color name="purple_800">#6A1B9A</color>
+    <color name="purple_900">#4A148C</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+    <!-- 原色保留 -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="black">#FF000000</color>
+    <color name="gray">#FF808080</color>
+
+    <!-- ========== Material 标准色 ========== -->
+    <!-- 红色系 -->
+    <color name="red_50">#FFEBEE</color>
+    <color name="red_500">#F44336</color>
+    <color name="red_700">#D32F2F</color>
+
+    <!-- 蓝色系 -->
+    <color name="blue_50">#E3F2FD</color>
+    <color name="blue_500">#2196F3</color>
+    <color name="blue_700">#1976D2</color>
+
+    <!-- 绿色系 -->
+    <color name="green_50">#E8F5E9</color>
+    <color name="green_500">#4CAF50</color>
+    <color name="green_700">#388E3C</color>
+
+    <!-- 黄色系 -->
+    <color name="yellow_500">#FFEB3B</color>
+    <color name="yellow_700">#FBC02D</color>
+
+    <!-- 橙色系 -->
+    <color name="orange_500">#FF9800</color>
+    <color name="orange_700">#F57C00</color>
+
+    <!-- ========== 功能色 ========== -->
+    <!-- 成功色 -->
+    <color name="success_green">#2E7D32</color>
+    <!-- 警告色 -->
+    <color name="warning_orange">#FF6D00</color>
+    <!-- 错误色 -->
+    <color name="error_red">#C62828</color>
+    <!-- 信息色 -->
+    <color name="info_blue">#0277BD</color>
+    <!-- 禁用色 -->
+    <color name="disabled_gray">#BDBDBD</color>
+
+    <!-- ========== 中性色 ========== -->
+    <!-- 浅灰 -->
+    <color name="gray_100">#F5F5F5</color>
+    <color name="gray_200">#EEEEEE</color>
+    <color name="gray_300">#E0E0E0</color>
+    <!-- 标准灰 -->
+    <color name="gray_500">#9E9E9E</color>
+    <!-- 深灰 -->
+    <color name="gray_700">#616161</color>
+    <color name="gray_800">#424242</color>
+    <color name="gray_900">#212121</color>
+
+    <!-- ========== 透明色 ========== -->
+    <color name="transparent">#00000000</color>
+    <color name="black_transparent_50">#80000000</color>
+    <color name="white_transparent_50">#80FFFFFF</color>
+
+    <!-- ========== 特殊场景色 ========== -->
+    <!-- 水波纹效果色 -->
+    <color name="ripple_light">#1F000000</color>
+    <color name="ripple_dark">#1FFFFFFF</color>
+    <!-- 分割线色 -->
+    <color name="divider">#1F000000</color>
+</resources>
