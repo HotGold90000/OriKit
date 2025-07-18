@@ -1,0 +1,3 @@
+jitpack:
+  jdk:
+    - openjdk17
