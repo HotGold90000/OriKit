@@ -56,6 +56,10 @@ kotlin {
 }
 
 dependencies {
+
+    //依赖本地library工程
+    implementation project(path: ':orikitx')
+
     implementation 'com.google.code.gson:gson:2.10.1'
     implementation 'androidx.cardview:cardview:1.0.0'
 

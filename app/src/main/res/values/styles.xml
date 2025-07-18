@@ -11,19 +11,4 @@
         <item name="android:textSize">18sp</item>
         <item name="android:textColor">?android:attr/textColorPrimary</item>
     </style>
-
-    <style name="DialogAnimation">
-        <item name="android:windowEnterAnimation">@anim/slide_in_bottom</item>
-        <item name="android:windowExitAnimation">@anim/slide_out_bottom</item>
-    </style>
-
-    <style name="DialogTitleStyle" parent="MaterialAlertDialog.Material3.Title.Text">
-        <item name="android:textColor">@color/purple_500</item>
-        <item name="android:textSize">18sp</item>
-    </style>
-
-    <style name="DialogMessageStyle" parent="MaterialAlertDialog.Material3.Body.Text">
-        <item name="android:textColor">@color/gray_800</item>
-        <item name="android:padding">8dp</item>
-    </style>
 </resources>
