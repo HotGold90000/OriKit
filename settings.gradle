@@ -1,5 +1,3 @@
-apply from: 'dependency-config.gradle'
-
 include ':app'
 include ':orikitx'
 rootProject.name = "OriKit"

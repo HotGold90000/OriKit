@@ -1,19 +1,21 @@
-//apply from: 'dependency-config.gradle'
-apply from: 'dependency-config.gradle'
-
-
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 buildscript {
 //    ext.kotlin_version = "1.4.0"
-//    ext.kotlin_version = "1.7.0"
-    ext.kotlin_version = "1.8.22"
-    ext.lancexVersion = '0.0.7'
-    ext.lifecycle_version = '2.6.2' // 使用稳定版本
+    ext.kotlin_version = "1.7.0"
+//    ext.kotlin_version = "1.8.22"
+//    ext.kotlin_version = "1.4.31"
+//    ext.lancexVersion = '0.0.7'
+//    ext.lifecycle_version = '2.6.2' // 使用稳定版本
+    ext.lifecycle_version = '2.2.0' // 使用稳定版本
     repositories {
+//        google()
+//        jcenter()
+
 //        maven { setUrl("https://artifact.bytedance.com/repository/byteX/") }
-        mavenCentral()
-        maven { url 'https://maven.aliyun.com/repository/public' }
         maven { url 'https://maven.aliyun.com/repository/google' }
+        mavenCentral()
+        maven { url 'https://maven.aliyun.com/repository/jcenter' }
+        maven { url 'https://maven.aliyun.com/repository/public' }
         maven { url 'https://maven.aliyun.com/repository/gradle-plugin' }
         maven { url "https://jitpack.io" }
         maven { url 'https://jcenter.bintray.com/'}
@@ -21,22 +23,27 @@ buildscript {
 //        jcenter()
     }
     dependencies {
-        classpath 'org.codehaus.groovy:groovy-xml:3.0.9'
+//        classpath 'org.codehaus.groovy:groovy-xml:3.0.9'
 
 //        classpath "com.bytedance.android.byteX:base-plugin:0.3.0" //0.3.0 或其他更高版本
 //        classpath "io.github.knight-zxw:lancet-plugin:${lancexVersion}"
 
 //        classpath "com.android.tools.build:gradle:4.1.2"
-        classpath 'com.android.tools.build:gradle:8.0.0'
+//        classpath 'com.android.tools.build:gradle:8.0.0'
+        classpath 'com.android.tools.build:gradle:4.1.1'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
     }
 }
 
 allprojects {
     repositories {
-        mavenCentral()
-        maven { url 'https://maven.aliyun.com/repository/public' }
+//        google()
+//        jcenter()
+
         maven { url 'https://maven.aliyun.com/repository/google' }
+        mavenCentral()
+        maven { url 'https://maven.aliyun.com/repository/jcenter' }
+        maven { url 'https://maven.aliyun.com/repository/public' }
         maven { url 'https://maven.aliyun.com/repository/gradle-plugin' }
         maven { url "https://jitpack.io" }
         maven { url 'https://jcenter.bintray.com/'}
