@@ -12,13 +12,13 @@ plugins {
 
 android {
 //    namespace 'com.orikit'
-    compileSdkVersion 34
+    compileSdkVersion rootProject.ext.compileSdkVersion
     buildToolsVersion "30.0.3"
 
     defaultConfig {
         applicationId "com.orikit"
-        minSdkVersion 31
-        targetSdkVersion 34
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
         versionName "1.0"
 

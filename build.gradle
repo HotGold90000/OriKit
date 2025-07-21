@@ -5,8 +5,20 @@ buildscript {
 //    ext.kotlin_version = "1.8.22"
     ext.kotlin_version = "1.4.31"
 //    ext.lancexVersion = '0.0.7'
-//    ext.lifecycle_version = '2.6.2' // 使用稳定版本
-    ext.lifecycle_version = '2.2.0' // 使用稳定版本
+    ext.lifecycle_version = '2.2.0' // '2.6.2' 使用稳定版本
+
+    ext.minSdkVersion = 21
+    ext.targetSdkVersion = 34
+    ext.compileSdkVersion = 34
+
+    //    compileSdkVersion 34
+    //    buildToolsVersion "30.0.3"
+    //
+    //    defaultConfig {
+    ////        applicationId "com.orikitx"
+    //        minSdkVersion 21
+    //        targetSdkVersion 34
+
     repositories {
         google()
         jcenter()
