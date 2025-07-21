@@ -21,6 +21,7 @@ object OriKit {
     private var APPLICATION: Application? = null
     private var linkManager: LinkManager? = null
 
+    @JvmStatic
     fun install(
         app: Application,
     ) {
