@@ -4,29 +4,15 @@ import android.app.Application
 import com.orikitx.links.LinkManager
 import com.orikitx.view.RbToast
 
-//import kotlin.reflect.full.declaredMemberProperties
-//import kotlin.reflect.jvm.isAccessible
-
-/**
- * implementation 'org.nanohttpd:nanohttpd-websocket:2.3.1'
- * implementation "org.jetbrains.kotlin:kotlin-reflect:$kotlin_version"
- */
-
-const val TAG = "Testlog"
-const val DELAY_TIME = 500L
-const val FILTER_CONTENT = "room"
-
 object OriKit {
 
-    private var APPLICATION: Application? = null
+    private var mApplication: Application? = null
     private var linkManager: LinkManager? = null
 
     @JvmStatic
-    fun install(
-        app: Application,
-    ) {
-        APPLICATION = app
-        APPLICATION?.let {
+    fun install(app: Application) {
+        mApplication = app
+        mApplication?.let {
             linkManager = LinkManager(it).apply {
                 initServer()
             }
@@ -41,8 +27,28 @@ object OriKit {
     fun sendMsg(msgToSend: String) {
         linkManager?.sendMsg(msgToSend)
     }
+    /**
+     * 获取设备IP地址
+     * @return String
+     */
+    fun getDeviceIp(): String {
+        return linkManager?.getIPAddress() ?: "ip address not available"
+    }
 
 }
+
+const val TAG = "Testlog"
+const val DELAY_TIME = 500L
+const val FILTER_CONTENT = "room"
+
+//import kotlin.reflect.full.declaredMemberProperties
+//import kotlin.reflect.jvm.isAccessible
+
+/**
+ * implementation 'org.nanohttpd:nanohttpd-websocket:2.3.1'
+ * implementation "org.jetbrains.kotlin:kotlin-reflect:$kotlin_version"
+ */
+
 
 
 /**

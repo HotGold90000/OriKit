@@ -11,4 +11,11 @@
         <item name="android:textSize">18sp</item>
         <item name="android:textColor">?android:attr/textColorPrimary</item>
     </style>
+
+    <style name="CompactChip" parent="Widget.MaterialComponents.Chip.Action">
+        <item name="android:textSize">12sp</item>
+        <item name="android:minHeight">24dp</item>
+        <item name="chipMinHeight">24dp</item>
+    </style>
+
 </resources>

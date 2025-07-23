@@ -98,6 +98,12 @@ dependencies {
     //依赖本地library工程
     implementation project(path: ':orikitx')
 
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'androidx.cardview:cardview:1.0.0'
+
+//    implementation 'com.google.android.material:material:1.11.0' // 使用最新版本,最新版本可能和gradle不兼容，会报错
+    implementation 'com.google.android.material:material:1.3.0-alpha04'
+
     // 必须添加的核心依赖
     implementation 'androidx.annotation:annotation:1.1.0'
     implementation 'androidx.core:core-ktx:1.3.2'

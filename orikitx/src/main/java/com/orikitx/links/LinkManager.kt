@@ -49,7 +49,7 @@ class LinkManager constructor(val application: Application) {
         webSocketCallback = callback
     }
 
-    private fun getIPAddress(): String {
+    fun getIPAddress(): String {
         val wifiManager =
             application.applicationContext.getSystemService(Context.WIFI_SERVICE) as WifiManager
         val wifiInfo: WifiInfo = wifiManager.connectionInfo
